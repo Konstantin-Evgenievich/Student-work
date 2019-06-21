@@ -1,2 +1,2 @@
 # student-work
-1 курс
+1 course
