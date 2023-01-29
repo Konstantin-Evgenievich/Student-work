@@ -1,0 +1,30 @@
+{
+    "id": "0",
+    "name": "Страхование от признаков",
+    "ТипМодели": "<class 'sklearn.linear_model._base.LinearRegression'>",
+    "НормализацияДанных": false,
+    "СтандартизацияДанных": false,
+    "НазваниеПризнаковВходных": [
+        "age",
+        "bmi",
+        "children",
+        "sex_female",
+        "sex_male",
+        "smoker_no",
+        "smoker_yes",
+        "reg_northeast",
+        "reg_northwest",
+        "reg_southeast",
+        "reg_southwest"
+    ],
+    "НазваниеПризнаковВыходных": [
+        "charges"
+    ],
+    "MAE": 4135.144055031661,
+    "MSE": 31436191.547443602,
+    "RMSE": 5606.798689755466,
+    "R2": 0.7979174036413801,
+    "dataset_name_forTrain": "insurance_data_Ready",
+    "model_filename": "linear_model.h5",
+    "y_test": "16884.924"
+}
